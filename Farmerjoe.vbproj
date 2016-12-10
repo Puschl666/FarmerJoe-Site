@@ -134,6 +134,8 @@
     <Compile Include="App_Start\Config.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\ViewEngineConfig.vb" />
+    <Compile Include="Areas\Manager\Controllers\DefaultController.vb" />
+    <Compile Include="Areas\Manager\ManagerAreaRegistration.vb" />
     <Compile Include="ConfigData\Data.vb" />
     <Compile Include="ConfigData\Manager.vb" />
     <Compile Include="Controllers\BackendController.vb" />
@@ -194,6 +196,9 @@
     <Content Include="Farmerjoe.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Areas\Manager\Views\web.config" />
+    <Content Include="Areas\Manager\Views\Default\Index.vbhtml" />
+    <Content Include="Areas\Manager\Views\Layout\Default.vbhtml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -231,6 +236,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Manager\Models\" />
+    <Folder Include="Areas\Manager\Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
