@@ -1,0 +1,52 @@
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Farmerjoe.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Farmerjoe.pdb
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Farmerjoe.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Newtonsoft.Json.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\ProComp.Component.Database.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\ProComp.Models.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Helpers.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Mvc.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Razor.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.Deployment.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.Razor.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Newtonsoft.Json.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Razor.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.Deployment.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Webpages.Razor.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Helpers.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\System.Web.Mvc.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.Resources.resources
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.vbproj.GenerateResource.Cache
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.dll
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.xml
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.pdb
+D:\Workspace\ASP.NET Applications\Farmerjoe\bin\Farmerjoe.dll.config
+D:\Workspace\ASP.NET Applications\Farmerjoe\obj\Debug\Farmerjoe.vbprojResolveAssemblyReference.cache
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Farmerjoe.dll.config
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Farmerjoe.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Farmerjoe.pdb
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Farmerjoe.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Microsoft.Web.Infrastructure.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Newtonsoft.Json.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Helpers.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Mvc.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Razor.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.Deployment.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.Razor.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\Newtonsoft.Json.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Razor.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.Deployment.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Webpages.Razor.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Helpers.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\bin\System.Web.Mvc.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.vbprojResolveAssemblyReference.cache
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.Resources.resources
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.vbproj.GenerateResource.Cache
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.dll
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.xml
+D:\Dokumente\Visual Studio 2015\Projects\Farmerjoe\obj\Debug\Farmerjoe.pdb

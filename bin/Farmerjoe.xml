@@ -1,0 +1,258 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Farmerjoe
+</name>
+</assembly>
+<members>
+<member name="T:Farmerjoe.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Farmerjoe.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Farmerjoe.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Farmerjoe.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Farmerjoe.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="M:Farmerjoe.Controllers.BackendController.CheckLogin(System.String,System.String)">
+ <summary>
+ Prüft ob der Benutzer existiert und meldet diesen in der Session an
+ </summary>
+ <param name="Username">Anmeldename</param>
+ <param name="Password"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.UserData(System.String,System.Int32)">
+ <summary>
+ Gibt Daten zum aktuell eingeloggten Nutzer zurück
+ </summary>
+ <param name="Hash">Zeichenkette welche bei Server und Client gleich sein muss</param>
+ <param name="ID">ID des Users</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.UserData(System.String,System.Int32,System.Int32)">
+ <summary>
+ Gibt Daten zum aktuell eingeloggten Nutzer zurück
+ </summary>
+ <param name="Hash">Zeichenkette welche bei Server und Client gleich sein muss</param>
+ <param name="ID">ID des Users</param>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.GetUserData(System.String,System.Int32,System.Int32)">
+ <summary>
+ Gibt Daten zum aktuell eingeloggten Nutzer zurück
+ </summary>
+ <param name="Hash">Zeichenkette welche bei Server und Client gleich sein muss</param>
+ <param name="ID">ID des Users</param>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.Login(System.String,System.String,System.String)">
+ <summary>
+ Prüft ob der Nutzer mit der Email/Passwort Kombination existiert, gibt entsprechende Statusmeldungen zurück.
+ </summary>
+ <param name="EMailAddress">Anmeldename = E-Mail-Adresse des Users</param>
+ <param name="Password">Das Passwort des Users</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.Login(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Prüft ob der Nutzer mit der Email/Passwort Kombination existiert, gibt entsprechende Statusmeldungen zurück.
+ </summary>
+ <param name="EMailAddress">Anmeldename = E-Mail-Adresse des Users</param>
+ <param name="Password">Das Passwort des Users</param>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.GetLogin(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Prüft ob der Nutzer mit der Email/Passwort Kombination existiert, gibt entsprechende Statusmeldungen zurück.
+ </summary>
+ <param name="EMailAddress">Anmeldename = E-Mail-Adresse des Users</param>
+ <param name="Password">Das Passwort des Users</param>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.Reg(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Einen neuen Benutzer registrieren
+ </summary>
+ <param name="EMailAddress">Anmeldename = E-Mail-Adresse des Users</param>
+ <param name="Password">Das Passwort des Users</param>
+ <param name="Username">Der Nickname des Users</param>
+ <param name="RepeadPassword">Das Passwort des Users wiederholt</param>
+ <param name="Asset">Der Avatar des Users</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.SaveAsset(System.String,System.Int32)">
+ <summary>
+ Einen Avatar zu einem Nutzer speichern
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.UMA(System.String)">
+ <summary>
+ Liefert Daten um das Charakter-Erstellen Menü zu füllen
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.UMA(System.String,System.Int32)">
+ <summary>
+ Liefert Daten um das Charakter-Erstellen Menü zu füllen
+ </summary>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.ScriptsController.GetUMA(System.String,System.Int32)">
+ <summary>
+ Liefert Daten um das Charakter-Erstellen Menü zu füllen
+ </summary>
+ <param name="isGet">Pseudoparameter</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.Helper.User.CheckPassword(Farmerjoe.Model.Frontend.User.UserModel,System.String,System.Boolean)">
+ <summary>
+ Prüft die Gültigkeit des Passworts. Dabei wird berücksichtigt, ob es verschlüsselt abgelegt wurde oder als Klartext in der Datenbank vorliegt.
+ </summary>
+ <param name="DatabaseUser">Benutzer, dessen Passwort geprüft werden soll.</param>
+ <param name="Password">Eingegebenes Passwort</param>
+ ''' <param name="isEncrypted">Gibt an, ob Passwort verschlüsselt vorliegt</param>
+ <remarks></remarks>
+</member>
+<member name="M:Farmerjoe.Helper.User.EncryptPassword(Farmerjoe.Model.Frontend.User.UserModel)">
+ <summary>
+ Verschlüsselt das Passwort eines Benutzers in der Datenbank, sofern es nicht bereits verschlüsselt ist.
+ </summary>
+ <param name="DatabaseUser">Benutzers, dessen Passwort verschlüsselt wird</param>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.User.UserModel.Meta">
+ <summary>
+ Die Metadaten für die Modelstruktur.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.User.UserModel.Meta.Sql">
+ <summary>
+ Wir verwenden die SQL-Metas.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.User.UserModel.Meta.Sql.Name">
+ <summary>
+ Gibt an welche SQL-Tabelle die Daten für dieses Model enthält.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.User.UserModel.Objects">
+ <summary>
+Setzt den globalen Manager für die Verwaltung der Daten.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.Uma.AccordionModel.Meta">
+ <summary>
+ Die Metadaten für die Modelstruktur.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.Uma.AccordionModel.Meta.Sql">
+ <summary>
+ Wir verwenden die SQL-Metas.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.Uma.AccordionModel.Meta.Sql.Name">
+ <summary>
+ Gibt an welche SQL-Tabelle die Daten für dieses Model enthält.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.Uma.AccordionModel.Objects">
+ <summary>
+Setzt den globalen Manager für die Verwaltung der Daten.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.Uma.ItemModel.Meta">
+ <summary>
+ Die Metadaten für die Modelstruktur.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Backend.Uma.ItemModel.Meta.Sql">
+ <summary>
+ Wir verwenden die SQL-Metas.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.Uma.ItemModel.Meta.Sql.Name">
+ <summary>
+ Gibt an welche SQL-Tabelle die Daten für dieses Model enthält.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Backend.Uma.ItemModel.Objects">
+ <summary>
+Setzt den globalen Manager für die Verwaltung der Daten.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Frontend.User.UserModel.Meta">
+ <summary>
+ Die Metadaten für die Modelstruktur.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Farmerjoe.Model.Frontend.User.UserModel.Meta.Sql">
+ <summary>
+ Wir verwenden die SQL-Metas.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Frontend.User.UserModel.Meta.Sql.Name">
+ <summary>
+ Gibt an welche SQL-Tabelle die Daten für dieses Model enthält.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Farmerjoe.Model.Frontend.User.UserModel.Objects">
+ <summary>
+Setzt den globalen Manager für die Verwaltung der Daten.
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
